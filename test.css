@@ -11,7 +11,15 @@ body{
     overflow-x: hidden;
     background-attachment: fixed;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 
+/* Hide scrollbar for IE and Edge */
+body {
+    -ms-overflow-style: none;
+    
+}
 
 
 .main{
@@ -350,8 +358,9 @@ button{
 
 .side svg{
     position: fixed;
-    top: 17%;
+    top: 15%;
     left: 8.925%;
+    z-index: -1;
 }
 
 .contact-frm{
@@ -373,7 +382,7 @@ button{
 	text-align: left;
 	font: bold 16px Segoe UI;
     padding: 80px 50px;
-    margin-top: 80px;
+    margin-top: 60px;
     
 }
 
@@ -647,5 +656,8 @@ footer h4{
     }
     .stack h3{
         margin-top: 25px;
+    }
+    .side svg{
+        left: 3%;
     }
 }

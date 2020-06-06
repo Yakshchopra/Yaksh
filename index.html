@@ -6,8 +6,9 @@
     <title>Yaksh Chopra</title>
     <link rel="stylesheet" href="./test.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -15,12 +16,17 @@
       <img class="logo" src="./res/logo.png" alt="yc">
   </div> -->
 
+  
   <div class="side">
-    <img class="logo-out" src="./res/logo.png" alt="yc">
+    <img class="logo-out" src="./res/logo.png" alt="yc" data-aos="zoom-out" data-aos-duration="3000">
+    <svg xmlns="http://www.w3.org/2000/svg" width="3" height="766" viewBox="0 0 3 4766">
+      <line id="Line_52" data-name="Line 52" y2="1566" transform="translate(1.5)" fill="none" stroke="#ec615b" stroke-width="3"/>
+    </svg>
+    
   </div>
   
 
-    <nav>
+    <nav data-aos="fade-down" data-aos-duration="2000">
        <div class="menu-icon">
           <i class="fa fa-bars fa-2x"></i>
        </div>
@@ -41,8 +47,8 @@
     <section class="sec1">
       <div class="container">
           <div class="row">
-            <div class="col-sm">
-              <h1>Yaksh Chopra</h1>
+            <div class="col-sm" data-aos="zoom-in-down" data-aos-duration="2000">
+              <h1 >Yaksh Chopra</h1>
           <p>I am a self-taught IoT and full-stack web developer currently pursuing my bachelors degree in Computer Science Engineering.</p>
             </div>
             <div class="col-sm">
@@ -52,7 +58,7 @@
         </div>
   </section>
 
-  <section class="sec2">
+  <section class="sec2" data-aos="fade-up"  data-aos-duration="3000">
       <div class="show">
         <div class="container">
           <div class="row">
@@ -83,7 +89,7 @@
      
     </section>
 
-    <section class="sec3">
+    <section class="sec3" data-aos="fade-up"  data-aos-duration="3000">
       <div class="container">
         <div class="row">
           <div class="col-sm">
@@ -103,22 +109,22 @@
     </section>
 
     <div class="stack">
-      <div class="heading">
+      <div class="heading" data-aos="fade-up"  data-aos-duration="3000">
         <h1>My Stack</h1>
       </div> 
       <div class="container">
         <div class="row">
-          <div class="col-sm">
+          <div class="col-sm" data-aos="flip-down" data-aos-duration="3000" >
              <img class="front" src="./res/Group 2025.png" alt="">
              <h3>Frontend</h3>
              <p>JavaScript <br> Angular <br> HTML <br> CSS</p>
           </div>
-          <div class="col-sm">
+          <div class="col-sm" data-aos="flip-down" data-aos-duration="3000">
             <img class="front" src="./res/back.png" alt="">
             <h3>Backend</h3>
             <p>Node Js <br> Express <br> Mongo DB <br> APIs</p>
           </div>
-          <div class="col-sm">
+          <div class="col-sm" data-aos="flip-down" data-aos-duration="3000">
             <img class="front" src="./res/iot.png" alt="">
             <h3 class="io">IoT</h3>
             <p>Arduino <br> ESP <br> Raspberry Pi <br> AWS</p>
@@ -128,9 +134,9 @@
      </div>
 
 
-     <section class="wrk">
+     <section class="wrk" data-aos="fade-up"  data-aos-duration="3000">
       <div class="head2"><h1>My Works</h1></div>
-      <div class="car">
+      <div class="car" data-aos="flip-up" data-aos-duration="2000">
        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
          <div class="carousel-inner">
            <div class="carousel-item active" data-interval="10000">
@@ -201,7 +207,7 @@
       </div>
      </section>
 
-   <section class="contact-frm">
+   <section class="contact-frm" data-aos="fade-up"  data-aos-duration="3000">
 
       <h2>
           Let's Talk
@@ -245,7 +251,7 @@
       </ul>  
      </section> -->
 
-     <footer class="footer-distributed">
+     <footer class="footer-distributed" data-aos="fade"  data-aos-duration="3000">
 
       <div class="footer-left">
    
@@ -310,7 +316,7 @@
       
 
         
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.4.3/lottie.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

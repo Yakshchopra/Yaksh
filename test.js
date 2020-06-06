@@ -55,3 +55,7 @@ var animation = bodymovin.loadAnimation({
                 autoplay: true,
                 path: './res/Chatbot Colour Animation.json'
                 });
+
+
+
+                AOS.init();
