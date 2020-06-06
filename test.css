@@ -10,6 +10,7 @@ body{
   background-size: 100%;
     overflow-x: hidden;
     background-attachment: fixed;
+    
 }
 body::-webkit-scrollbar {
     display: none;
@@ -18,7 +19,7 @@ body::-webkit-scrollbar {
 /* Hide scrollbar for IE and Edge */
 body {
     -ms-overflow-style: none;
-    
+    scroll-behavior: smooth !important;
 }
 
 
@@ -74,7 +75,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #5222D0;
+    color: #8f9296;
     font-size: 26px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 100;
@@ -621,7 +622,7 @@ footer h4{
 
 
 
-@media(max-width: 400px){
+@media(max-width: 470px){
     .goco{
         height: 150px;
     }
