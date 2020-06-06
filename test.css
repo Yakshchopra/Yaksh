@@ -658,6 +658,6 @@ footer h4{
         margin-top: 25px;
     }
     .side svg{
-        left: 3%;
+        display: none;
     }
 }
