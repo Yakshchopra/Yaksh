@@ -6,7 +6,7 @@ body{
     background-color: black !important;
     background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
   background-position: center;
-  
+   overflow-y: scroll;
   background-size: 100%;
     overflow-x: hidden;
     background-attachment: fixed;
@@ -18,8 +18,14 @@ body::-webkit-scrollbar {
 
 /* Hide scrollbar for IE and Edge */
 body {
-    -ms-overflow-style: none;
+    
     scroll-behavior: smooth !important;
+}
+
+   
+
+.animate{
+    scroll-behavior: smooth;
 }
 
 
@@ -151,6 +157,7 @@ h1{
 .sec1{
     margin-top: 15%;
     margin-left: 10%;
+    scroll-behavior: smooth
 }
 
 .no-show{
@@ -167,6 +174,7 @@ h1{
 
 .sec2{
     margin-top: 15%;
+    scroll-behavior: smooth
 }
 
 .sec3 p{
@@ -175,17 +183,20 @@ h1{
     color: white;
     font-size: 24px;
     text-align: center;
+    
 }
 
 .sec3{
     margin-top: 15%;
     margin-left: 10%;
+    scroll-behavior: smooth;
 }
 
 /* stack */
 
 .stack{
     margin-top: 15%;
+    scroll-behavior: smooth
 }
 
 .stack h1{
@@ -259,6 +270,7 @@ h1{
 /* works start */
 .wrk{
     margin-top: 17%;
+    scroll-behavior: smooth
 }
 
 .car{
@@ -366,6 +378,7 @@ button{
 
 .contact-frm{
     margin-bottom: 10%;
+    scroll-behavior: smooth
 }
 
 
@@ -374,6 +387,7 @@ button{
 
 
 .footer-distributed{
+    scroll-behavior: smooth;
     /* background-color: #292c2f; */
     background-image: url(./res/fb.png);
     background-repeat: no-repeat;
